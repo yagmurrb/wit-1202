@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1, header div {
+    width: 30%;
+}
+
+header nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: rgb(59, 59, 59);
+
+}
+
+header nav a:hover {
+color: red;
+}
+
+input {
+    padding: 0.5rem;
+    padding-right: 1.5rem;
+}
+
+.search-icon {
+    margin-left: -2.3rem;
+
+}
+
+.notification-icon {
+    font-size: 2rem;
+}
+.user-avatar {
+    width: 2.5rem;
+    border-radius: 100%;
+}
+
+.access-menu {
+display: flex;
+align-items: center;
+gap: 1rem;
+justify-content: flex-end;
+}
+
+h1 {
+    color: red;
+}
+
+/* main section*/
+
+main {
+    margin: 1rem;
+    border: 1px solid black;
+    padding: 2rem;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
