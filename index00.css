@@ -188,6 +188,7 @@ footer nav a:first-child {
     }
     .section-content {
         gap: 1rem;
+        overflow:auto;
         
     }
     main h2 {
@@ -196,7 +197,7 @@ footer nav a:first-child {
     .card {
         padding: 1rem;
         min-width: 50%;
-        
+        margin-bottom: 20px;
     }
     .card h4 {
         font-size: 1.2rem;
